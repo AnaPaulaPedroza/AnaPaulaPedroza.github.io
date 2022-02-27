@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head class = "todo">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gatos</title>
     <link rel = "stylesheet" href = "css/style.css">
-    <link rel = "icon" type="image/png" href= "img/logo.PNG"
+    <link rel = "icon" type="image/png" href= "img/logo.PNG">
+
+    <nav class = "topnav">
+        <a href = "#home">Home</a>
+        <a href = "#video"> Video</a>
+        <a href = "fotosGato.html"> Fotos</a>
+        <a href = "#form">Contáctanos</a>
+    </nav>
 </head>
-<body>
-    <h1>¿Qué saber antes de tener un gato?</h1>
+<body class = "todo">
+    <main id = "home">
+        <h1>¿Qué saber antes de tener un gato?</h1>
+        
+        <div id ="img">
+            <img src = "img/img1.jpg" height="400" >
+        </div>
+    </main>
     
-    <div id ="img">
-        <img src = "img/img1.jpg" height="400" >
-    </div>
 
-    
-
-    <div id = "Backstory">
+    <section id = "Backstory">
         <div id = "titulo">
             <h2>Datos Curiosos</h2>
         </div>
@@ -37,17 +45,17 @@
             Este es un período crítico en su desarrollo, ya que es el momento en el que se separan de su madre y van a su nuevo hogar.
         </p>
         <p>
-            <nav>
-                <a href ="https://www.ngenespanol.com/animales/11-datos-interesantes-que-debes-saber-sobre-los-gatos/">Link para página con más datos curiosos</a>
-            </nav>
+            
+            <a href ="https://www.ngenespanol.com/animales/11-datos-interesantes-que-debes-saber-sobre-los-gatos/">Link para página con más datos curiosos</a>
+            
         </p>
 
-    </div>
+    </section>
 
 
     
 
-    <div id = "Adoptar">
+    <section id = "Adoptar">
         <div id ="titulo">
             <h2>Cosas que debes de saber antes de adoptar</h2>
         </div>
@@ -66,7 +74,7 @@
                 <li>Ronronear ayuda a los gatos a calmarse cuando están en apuros</li>
             </ul>
         </p>
-    </div>
+    </section>
 
     <div id = "video">
         <iframe width="928" height="522" src="https://www.youtube.com/embed/MN4DQ_Vd0nE" title="YouTube video player" 
@@ -88,8 +96,10 @@
     </div>
 
     <br><br>
+</body>
 
-    <div id ="Bibliografias">
+<footer>
+    <section id ="Bibliografias">
         <h4>Bibliografías</h4>
         <p>
             <ol>
@@ -102,6 +112,6 @@
                 <li>10 DATOS CURIOSOS SOBRE GATOS. (2022, 1 febrero). No lo dejes al azar. https://www.nolodejesalazar.es/10-datos-curiosos-sobre-gatos/</li>
             </ol>
         </p>
-    </div>
-</body>
+    </section>
+</footer>
 </html>

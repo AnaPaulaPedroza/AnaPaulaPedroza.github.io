@@ -1,0 +1,46 @@
+.topnav
+{
+    background-image: url("fondo1.jpg");
+    overflow: hidden;
+}
+
+.topnav a 
+{
+    float: right;
+    color:rgb(220, 220, 228);
+    text-align: center;
+    padding: 18px 38px;
+    font-size: 16px;
+}
+
+.topnav a:hover
+{
+    background-color:lightslategrey;
+    color:black;
+}
+
+html
+{
+    font-family: "Georgia";
+    background-color: lightgray;
+}
+
+h1 
+{
+    text-align: center;
+    font-size: 200%;
+    color:darkolivegreen;
+}
+
+h3
+{
+    text-align: center;
+    font-size: 150%;
+    color:darkolivegreen;
+}
+
+#img
+{
+    text-align: center;
+
+}

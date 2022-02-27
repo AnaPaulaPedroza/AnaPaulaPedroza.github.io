@@ -1,3 +1,10 @@
+
+html, .todo
+{
+    font-family: "Georgia";
+    
+}
+
 h1 
 {
     text-align: center;
@@ -10,16 +17,37 @@ h2
     font-size: 150%;
 }
 
-h3, h4
+h3
 {
     color:darkolivegreen;
 }
 
-html
+h4
 {
-    font-family: "Georgia"
-    
+    color: goldenrod;
 }
+
+.topnav
+{
+    background-image: url("fondo1.jpg");
+    overflow: hidden;
+}
+
+.topnav a 
+{
+    float: right;
+    color:rgb(220, 220, 228);
+    text-align: center;
+    padding: 18px 38px;
+    font-size: 16px;
+}
+
+.topnav a:hover
+{
+    background-color:lightslategrey;
+    color:black;
+}
+
 
 body
 {
@@ -56,7 +84,19 @@ table
     text-align: center;
 }
 
+#img
+{
+    max-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
 #Bibliografias
 {
     font-size: 90%;
+    background-image: url("fondo1.jpg");
+    padding-top: 6px;
+    padding-left: 3px;
+    padding-bottom: 3px;
+    color: rgb(204, 210, 216);
 }
