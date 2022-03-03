@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gatos</title>
+
     <link rel = "stylesheet" href = "css/style.css">
+    <script src ="javacode.js"></script>
     <link rel = "icon" type="image/png" href= "img/logo.PNG">
 
     <nav class = "topnav">
@@ -20,7 +22,7 @@
         <h1>¿Qué saber antes de tener un gato?</h1>
         
         <div id ="img">
-            <img src = "img/img1.jpg" height="400" >
+            <img src = "img/img1.jpg" class="responsive" height="400" >
         </div>
     </main>
     
@@ -46,7 +48,7 @@
         </p>
         <p>
             
-            <a href ="https://www.ngenespanol.com/animales/11-datos-interesantes-que-debes-saber-sobre-los-gatos/">Link para página con más datos curiosos</a>
+            <a href ="https://www.ngenespanol.com/animales/11-datos-interesantes-que-debes-saber-sobre-los-gatos/" >Link para página con más datos curiosos</a>
             
         </p>
 
@@ -76,26 +78,29 @@
         </p>
     </section>
 
-    <div id = "video">
-        <iframe width="928" height="522" src="https://www.youtube.com/embed/MN4DQ_Vd0nE" title="YouTube video player" 
+    <div id = "video" class = "container">
+        <iframe class= "VidResp" width="928" height="522" src="https://www.youtube.com/embed/MN4DQ_Vd0nE" title="YouTube video player" 
         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen></iframe>
+        allowfullscreen ></iframe>
     </div>
 
     <br><br>
+  
+
     <div id="form">
-        <form action ="" method ="get">
+        <form action ="" method ="post" name = "form" onsubmit= "return validateForm()">
             <h3>¡Contáctanos!</h3>
             <table>
                 <tr><th> <label for="nombre">Nombre: </label></th> <th><input type = "text" id = "nombre" name = "nombre"></th></tr>
                 <tr><th><label for="comentario">Comentarios: </label></th> <th><input type = "text" id = "comentario" name = "comentario"></th></tr>
                 <tr><th><label for="password">Contraseña: </label></th> <th><input type = "password" id = "password" name = "contraseña"></th></tr>
-                <tr><th></th><th><button type="button">Enviar</button></th></tr>
+                <tr><th></th><th><input type="submit" value="Enviar"></th></tr>
             </table>
         </form>
     </div>
 
     <br><br>
+
 </body>
 
 <footer>

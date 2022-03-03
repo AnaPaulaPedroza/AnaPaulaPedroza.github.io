@@ -39,8 +39,15 @@ h3
     color:darkolivegreen;
 }
 
+.responsive
+{
+    max-width: 70%;
+    height: auto;
+}
+
 #img
 {
     text-align: center;
 
 }
+

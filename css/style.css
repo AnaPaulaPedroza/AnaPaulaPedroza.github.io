@@ -27,6 +27,12 @@ h4
     color: goldenrod;
 }
 
+.responsive
+{
+    max-width: 100%;
+    height: auto;
+}
+
 .topnav
 {
     background-image: url("fondo1.jpg");
@@ -58,6 +64,8 @@ p
 {
     font-size: 100%;
 }
+
+
 
 table
 {
