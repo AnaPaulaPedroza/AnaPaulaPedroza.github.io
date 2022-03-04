@@ -54,6 +54,23 @@ h4
     color:black;
 }
 
+.container
+{
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.iframe-resp
+{
+    position: absolute;
+    top: 0;
+    left: 15%;
+    width: 70%;
+    height: 70%;
+    border: 0;
+}
 
 body
 {
